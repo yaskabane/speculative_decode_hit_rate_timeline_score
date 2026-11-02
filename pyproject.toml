@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "yaskabane-autoplan_jd112"
+name = "yaskabane-speculative_decode_hit_rate_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列自动驾驶规划控制专家·投机解码的命中率的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://yaskabane.github.io"
-Repository = "https://github.com/yaskabane/autoplan_jd112"
-Issues = "https://github.com/yaskabane/autoplan_jd112/issues"
+Repository = "https://github.com/yaskabane/speculative_decode_hit_rate_timeline_score"
+Issues = "https://github.com/yaskabane/speculative_decode_hit_rate_timeline_score/issues"
 
 [project.scripts]
-autoplan_jd112 = "autoplan_jd112:main"
+speculative_decode_hit_rate_timeline_score = "speculative_decode_hit_rate_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["autoplan_jd112"]
+py-modules = ["speculative_decode_hit_rate_timeline_score"]

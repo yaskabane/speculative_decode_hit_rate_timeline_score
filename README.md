@@ -1,11 +1,11 @@
-# autoplan_jd112
+# speculative_decode_hit_rate_timeline_score
 
 **按时间线排列自动驾驶规划控制专家·投机解码的命中率并标出节奏异常。**
 
-`autoplan_jd112` —— 解析时间标记，排列自动驾驶规划控制专家·投机解码的命中率的发生顺序，标出间隔异常与逆序事件
+`speculative_decode_hit_rate_timeline_score` —— 解析时间标记，排列自动驾驶规划控制专家·投机解码的命中率的发生顺序，标出间隔异常与逆序事件
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`autoplan_jd112.py` 拷走就能用
+- 单文件，`speculative_decode_hit_rate_timeline_score.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install yaskabane-autoplan_jd112
+pip install yaskabane-speculative_decode_hit_rate_timeline_score
 ```
 
 装完直接用命令名调用：
 
 ```bash
-autoplan_jd112 --help
+speculative_decode_hit_rate_timeline_score --help
 ```
 
-也可以不用安装，直接把 `autoplan_jd112.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `speculative_decode_hit_rate_timeline_score.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ autoplan_jd112 --help
 ## 用法
 
 ```bash
-python autoplan_jd112.py --file input.txt
-python autoplan_jd112.py --text "示例内容"
-python autoplan_jd112.py --file input.txt --json
+python speculative_decode_hit_rate_timeline_score.py --file input.txt
+python speculative_decode_hit_rate_timeline_score.py --text "示例内容"
+python speculative_decode_hit_rate_timeline_score.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python autoplan_jd112.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_autoplan_jd112.py
+python test_speculative_decode_hit_rate_timeline_score.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_autoplan_jd112.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/yaskabane/autoplan_jd112>
+- GitHub 仓库：<https://github.com/yaskabane/speculative_decode_hit_rate_timeline_score>
 
 ---
 
@@ -79,7 +79,7 @@ python test_autoplan_jd112.py
 yaskabane 做自动驾驶规划控制专家·投机解码的命中率相关的问题，方向对标华为的中级自动驾驶规划控制专家岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://yaskabane.github.io>
-- 仓库：<https://github.com/yaskabane/autoplan_jd112>
+- 仓库：<https://github.com/yaskabane/speculative_decode_hit_rate_timeline_score>
 
 ## 许可
 
